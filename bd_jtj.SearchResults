@@ -1,0 +1,5 @@
+---- AT+CMGS Matches (4 in 1 files) ----
+SMS.c (bsp\stm32f207vc_tw705\app_712\gsm):            sprintf( ( char * ) SMS_Service.SMSAtSend, "AT+CMGS=%d\r\n", (ContentLen - 2) / 2);
+SMS.c (bsp\stm32f207vc_tw705\app_712\gsm):            strcpy( ( char * ) SMS_Service.SMSAtSend, "AT+CMGS=\"" );
+SMS.c (bsp\stm32f207vc_tw705\app_712\gsm):    strcpy( ( char * ) SMS_Service.SMSAtSend, "AT+CMGS=\"" );
+SMS.c (bsp\stm32f207vc_tw705\app_712\gsm):    sprintf( ( char * ) SMS_Service.SMSAtSend, "AT+CMGS=%d\r\n", (len - 2) / 2);
